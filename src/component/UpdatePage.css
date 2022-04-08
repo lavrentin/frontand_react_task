@@ -1,0 +1,77 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.formBloc {
+    display: flex;
+    width: 70%;
+    height: 500px;
+    background: #ededed;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 8px;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: space-evenly;
+}
+
+form > input {
+    width: 50%;
+    height: 25px;
+    color: rgb(37 100 94);;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+form > input > button {
+    background-color: rebeccapurple;
+}
+
+form > textarea {
+    width: 90%;
+    height: 110px;
+    color: rgba(0, 0, 0, 0.3);
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.click2 {
+    display: flex;
+    width: 70%;
+    height: 55px;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.click2 > button {
+    width: 85px;
+    height: 30px;
+    background: #AFAFAF;
+    border-radius: 5px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.clickHome {
+    border: none;
+    border-radius: 5px;
+    background: #afafaf;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}

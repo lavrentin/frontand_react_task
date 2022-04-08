@@ -1,0 +1,31 @@
+.table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+.currentUser {
+    background-color: #ffe333;
+    color: #af0000;
+}
+
+.otherUser {
+    background-color: black;
+    color: white;
+}
+
+.changeClick {
+    padding: 5px;
+    color: white;
+    background-color: #1010ec;
+}
+
+.clickUpdate {
+    border: none;
+    border-radius: 15px;
+    background: #2426d1;
+    color: white;
+    cursor: pointer;
+}
